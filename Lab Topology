@@ -1,0 +1,23 @@
+Virtual Servers. We will have:  
+Email Server
+Windows Server for AD/DC/DNS
+Ubuntu Server to test hacking with
+Elastic Monitoring for monitoring systems, info gathering in logs using the dashboards it offers
+
+For Firewalls:
+Install Opensense Next Gen firewall and installing features
+
+For Virtual Clients
+Windows 10 Client
+Kali attack machine will be connected to this also. 
+
+All will be connected using a Virtual L2 Switch also
+
+
+
+Key Takeaways and Learning Objectives
+Learn how to configure networks, firewalls, servers and systems
+Howto administrate Windows and Linux clients and servers
+Harden devices and networks
+Various penetration testing tools and techniques
+Monitor and DEFEND against attacks. 
