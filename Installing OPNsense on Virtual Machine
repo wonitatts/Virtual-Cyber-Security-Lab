@@ -1,0 +1,16 @@
+First, navigate to this webpage to view the recommended specs that OPNsense offers. https://opnsense.org/users/get-started/
+
+Second, after reviewing specs, click the download section to navigate to the opnsense iso file. 
+
+Choose the dvd image and pick the closest mirror to where you are. Should only be amd64. 
+
+
+While downloading. Head to the bzip 2 website here. https://opnsense.org/users/get-started/
+Bzip to is a file extractor. Make sure to download the setup file at the top beginning with "complete package" if you're using windows.
+An alternative is if you have WSL installed, you can boot up a ubuntu and use the bzip utility that's there. 
+
+After bzip is downloaded and installed, make sure to take note of where the file location is. This will make setup and installation of opensense easier when navigating the terminal
+
+I'm going to try to decompress this file with Winrar
+
+Once completed, go ahead and input the file on the vmware workstation player (or whatever virtualization you use) and run the program to allow it to setup. 
