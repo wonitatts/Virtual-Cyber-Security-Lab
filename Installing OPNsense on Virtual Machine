@@ -11,6 +11,11 @@ An alternative is if you have WSL installed, you can boot up a ubuntu and use th
 
 After bzip is downloaded and installed, make sure to take note of where the file location is. This will make setup and installation of opensense easier when navigating the terminal
 
-I'm going to try to decompress this file with Winrar
+follow the installation instructions of this video 
+
 
 Once completed, go ahead and input the file on the vmware workstation player (or whatever virtualization you use) and run the program to allow it to setup. 
+
+Ensure that you have 2 network interfaces one for the wan, one for the lan. Adapter 1 can be attached to the NAT setup and Adapter 2 can be setup to the internal network under the name 'intnet'
+
+
