@@ -11,13 +11,16 @@ For Virtual Clients
 Windows 10 Client
 Kali attack machine will be connected to this also. 
 
-All will be connected using a Virtual L2 Switch also
+All will be connected using a Virtual L2 Switch also but all connections will be configured via DHCP because
+of the headache that comes with a virtual static IP Address. Just keep note of any ip address changes. 
+(ifconfig was my friend here :) )
+
 
 
 
 Key Takeaways and Learning Objectives
 Learn how to configure networks, firewalls, servers and systems
-Howto administrate Windows and Linux clients and servers
+How to administrate Windows and Linux clients and servers
 Harden devices and networks
 Various penetration testing tools and techniques
 Monitor and DEFEND against attacks. 
