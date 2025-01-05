@@ -1,0 +1,69 @@
+ The Break Down
+
+What is Suricata?
+Suricata is like a "security guard" for your network. It watches all the data coming in and out of your network and looks for anything suspicious, like hackers or viruses. It works inside OPNsense, which is like the "control center" for your internet.
+
+What You’ll Need
+Access to your OPNsense web interface (usually at http://192.168.1.1 or something similar).
+Administrator login details for OPNsense.
+A computer or device with a web browser.
+
+Step 1: Log in to OPNsense
+Open a web browser and go to your OPNsense web interface (e.g., http://192.168.1.1).
+Enter your username and password. If you didn’t change it, the default is usually:
+Username: admin
+Password: opnsense
+
+
+Step 2: Install Suricata
+In the OPNsense dashboard, look for the menu on the left side.
+Go to System > Firmware > Plugins.
+In the plugins page, find the search bar and type os-suricata.
+When you see the Suricata plugin, click Install.
+This will download and install Suricata into your OPNsense.
+
+
+Step 3: Enable Suricata
+After installing, go to Services > Intrusion Detection in the menu.
+In the Settings tab:
+Check the box next to Enable to turn on Suricata.
+Check Enable Promiscuous Mode if you want Suricata to see all network traffic (this is optional but recommended for better detection).
+
+Step 4: Configure Interfaces
+In the same Settings tab, look for the Interfaces section.
+Select the network interfaces you want Suricata to monitor. For example:
+WAN: Monitors traffic from the internet.
+LAN: Monitors traffic inside your home network.
+Click Save at the bottom of the page.
+
+
+Step 5: Set Up Rules
+Go to the Download tab under Intrusion Detection.
+Here, you’ll see a list of rule sets (like security policies). Some are free, and some require a subscription.
+Select free ones like ET Open Rules.
+Click Download & Update to get the rules.
+Once the rules are downloaded, go to the Rules tab.
+Enable the rules you want. For example, rules for blocking malware or suspicious activity.
+
+
+Step 6: Enable Blocking
+Go back to the Settings tab.
+Find the option IPS Mode and enable it.
+This allows Suricata to not only detect threats but also block them.
+Check the box for Block Offenders.
+Click Save.
+
+
+Step 7: Test Suricata
+Go to Logs > Alerts under Intrusion Detection.
+This shows you what Suricata has detected. If something looks suspicious, Suricata will log it here.
+You can also test by visiting a harmless website designed for testing, like https://testmyids.com.
+If Suricata is working, it will log an alert for this test.
+
+
+Step 8: Monitor and Fine-Tune
+Check your logs regularly to see if Suricata is catching threats.
+If it blocks something you don’t want it to (like a website you trust), you can adjust the rules:
+Go to the Rules tab and disable or modify the rule causing the block.
+You’re Done! 🎉
+Now your network has a security guard (Suricata) watching over it. It’ll alert you and block suspicious activity, keeping your devices safe!
