@@ -5,7 +5,7 @@ Second, after reviewing specs, click the download section to navigate to the opn
 Choose the dvd image and pick the closest mirror to where you are. Should only be amd64. 
 
 
-While downloading. Head to the bzip 2 website here. https://opnsense.org/users/get-started/
+While downloading. Head to the bzip 2 website here(or you can use 7zip like i did). https://opnsense.org/users/get-started/
 Bzip to is a file extractor. Make sure to download the setup file at the top beginning with "complete package" if you're using windows.
 An alternative is if you have WSL installed, you can boot up a ubuntu and use the bzip utility that's there. 
 
