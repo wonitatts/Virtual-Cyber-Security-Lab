@@ -1,0 +1,32 @@
+Overview
+This project demonstrates how I configured a transparent proxy using OPNsense and Squid Proxy to manage and monitor HTTP traffic on a network. The setup includes redirecting all HTTP traffic (port 80) through the proxy server, enabling caching, and applying web filtering rules to control internet access.
+
+Skills Gained
+Network Traffic Management: Configured a transparent proxy to redirect and monitor HTTP traffic without manual client configuration.
+Firewall and NAT Rules: Created advanced NAT and firewall rules to redirect traffic to the proxy.
+Web Filtering: Applied access controls to block or allow specific websites/domains based on policies.
+Performance Optimization: Enabled caching to improve browsing speed and reduce bandwidth usage.
+Troubleshooting: Tested and resolved configuration issues to ensure seamless traffic redirection.
+Hands-On OPNsense Experience: Navigated and configured the OPNsense firewall platform.
+
+Tools and Technologies
+OPNsense Firewall: Open-source firewall for traffic management.
+Squid Proxy: Proxy server used for caching and web filtering.
+NAT (Network Address Translation): Redirected HTTP traffic using NAT rules.
+
+Steps Completed
+Installed and Configured Squid Proxy:
+Set up Squid Proxy in OPNsense for HTTP traffic filtering and caching.
+Created Firewall and NAT Rules:
+Redirected all HTTP (port 80) traffic to the Squid Proxy transparently.
+Implemented Web Filtering:
+Added access control rules to block or allow specific websites.
+Tested the Configuration:
+Validated that traffic redirection and filtering policies were working as intended.
+
+Use Case
+This setup is ideal for:
+
+Monitoring and managing network traffic in small to medium-sized environments.
+Enforcing internet usage policies.
+Optimizing bandwidth usage with caching.
